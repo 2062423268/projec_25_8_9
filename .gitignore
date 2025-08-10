@@ -1,0 +1,54 @@
+﻿# ================================================================
+# Keil MDK ignore patterns based on ARM App Note 279
+# ================================================================
+# DO NOT VERSION CONTROL (per ARM App Note 279)
+# ================================================================
+
+# Project screen layout files (user-specific)
+*.uvguix.*
+
+# Generated output files
+Listings/
+Objects/
+
+# Debug adapter configuration files
+*.ini
+
+# ================================================================
+# Additional common ignores (safe to ignore)
+# ================================================================
+
+# Backup files
+*.bak
+*.uvprojx.bak
+*.sct.bak
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Build logs
+*.build_log.htm
+
+# ================================================================
+# MUST VERSION CONTROL (per ARM App Note 279)
+# ================================================================
+# !Project.uvprojx    # Project file
+# !Project.uvoptx     # Project options file
+# !Project.uvmpw      # Multi-project workspace file
+# !RTE/               # Run-time environment configuration
+# !RTE/RTE_Components.h
+# !RTE/Device/**/RTE_Device.h
+# !*.sct              # Linker control file (if created manually)
+# !*.c                # User source files
+# !*.cpp
+# !*.h
+# !*.inc
+# !*.s
+# ================================================================
+
+# Project specific ignores (add your own below)
